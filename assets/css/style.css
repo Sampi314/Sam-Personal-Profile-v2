@@ -40,24 +40,24 @@
 }
 
 [data-theme="light"] {
-    --bg-primary: #eef1f5;
-    --bg-card: rgba(255, 255, 255, 0.45);
-    --bg-card-alt: rgba(248, 246, 242, 0.45);
+    --bg-primary: #dce3ed;
+    --bg-card: rgba(255, 255, 255, 0.4);
+    --bg-card-alt: rgba(255, 255, 255, 0.35);
     --text-primary: #1a1a1f;
     --text-secondary: #4a4a55;
     --text-muted: #8a8a95;
     --accent: #d97706;
     --accent-glow: rgba(217, 119, 6, 0.1);
     --accent-hover: #f59e0b;
-    --border: rgba(255, 255, 255, 0.3);
-    --border-strong: rgba(255, 255, 255, 0.4);
-    --tag-bg: rgba(240, 237, 230, 0.8);
+    --border: rgba(255, 255, 255, 0.6);
+    --border-strong: rgba(255, 255, 255, 0.7);
+    --tag-bg: rgba(255, 255, 255, 0.4);
     --tag-text: #92400e;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.1);
-    --nav-bg: rgba(238, 241, 245, 0.88);
+    --nav-bg: rgba(255, 255, 255, 0.4);
     --nav-text: #1a1a1f;
-    --code-bg: rgba(240, 237, 230, 0.8);
+    --code-bg: rgba(255, 255, 255, 0.4);
     --hero-bg: transparent;
     --hero-text: #1a1a1f;
     --hero-muted: #6b7280;
@@ -66,10 +66,52 @@
     --hero-btn-border: rgba(26, 26, 31, 0.18);
     --hero-pic-shadow: 0 0 30px rgba(217, 119, 6, 0.12), 0 12px 40px rgba(0, 0, 0, 0.1);
     --hero-pic-shadow-hover: 0 0 40px rgba(217, 119, 6, 0.2), 0 12px 40px rgba(0, 0, 0, 0.12);
-    --timeline-line: rgba(200, 195, 185, 0.6);
+    --timeline-line: rgba(0, 0, 0, 0.08);
     --grain-opacity: 0.02;
-    --glass-blur: 4px;
+    --glass-blur: 10px;
     --card-radius: 20px;
+}
+
+/* Light mode glass overrides */
+[data-theme="light"] section,
+[data-theme="light"] .card,
+[data-theme="light"] .featured-card {
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.4);
+}
+
+[data-theme="light"] section::before,
+[data-theme="light"] .hero-glass::before {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 1), transparent);
+}
+
+[data-theme="light"] section::after,
+[data-theme="light"] .hero-glass::after {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1), transparent, rgba(255, 255, 255, 0.5));
+}
+
+[data-theme="light"] .jump-bar {
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.4);
+}
+
+/* Light mode glow orbs - warmer, more visible */
+[data-theme="light"] .bg-glow-orb--1 {
+    background: radial-gradient(circle, rgba(217, 119, 6, 0.15) 0%, transparent 70%);
+}
+
+[data-theme="light"] .bg-glow-orb--2 {
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+}
+
+[data-theme="light"] .bg-glow-orb--3 {
+    background: radial-gradient(circle, rgba(217, 119, 6, 0.1) 0%, transparent 70%);
 }
 
 /* ========================================
