@@ -8,8 +8,8 @@
    ======================================== */
 :root {
     --bg-primary: #080c18;
-    --bg-card: rgba(255, 255, 255, 0.1);
-    --bg-card-alt: rgba(255, 255, 255, 0.12);
+    --bg-card: rgba(255, 255, 255, 0.06);
+    --bg-card-alt: rgba(255, 255, 255, 0.08);
     --text-primary: #e8e8ed;
     --text-secondary: #9ca3af;
     --text-muted: #6b7280;
@@ -35,7 +35,7 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(30, 200, 180, 0.35), 0 20px 60px rgba(0, 0, 0, 0.5);
     --timeline-line: rgba(255, 255, 255, 0.12);
     --grain-opacity: 0.02;
-    --glass-blur: 10px;
+    --glass-blur: 4px;
     --card-radius: 20px;
 }
 
@@ -68,7 +68,7 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(217, 119, 6, 0.2), 0 12px 40px rgba(0, 0, 0, 0.12);
     --timeline-line: rgba(200, 195, 185, 0.6);
     --grain-opacity: 0.02;
-    --glass-blur: 10px;
+    --glass-blur: 4px;
     --card-radius: 20px;
 }
 
