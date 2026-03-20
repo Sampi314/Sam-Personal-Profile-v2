@@ -8,8 +8,8 @@
    ======================================== */
 :root {
     --bg-primary: #080c18;
-    --bg-card: rgba(255, 255, 255, 0.05);
-    --bg-card-alt: rgba(255, 255, 255, 0.07);
+    --bg-card: rgba(255, 255, 255, 0.1);
+    --bg-card-alt: rgba(255, 255, 255, 0.12);
     --text-primary: #e8e8ed;
     --text-secondary: #9ca3af;
     --text-muted: #6b7280;
@@ -35,7 +35,7 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(30, 200, 180, 0.35), 0 20px 60px rgba(0, 0, 0, 0.5);
     --timeline-line: rgba(255, 255, 255, 0.12);
     --grain-opacity: 0.02;
-    --glass-blur: 14px;
+    --glass-blur: 10px;
     --card-radius: 20px;
 }
 
@@ -68,7 +68,7 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(217, 119, 6, 0.2), 0 12px 40px rgba(0, 0, 0, 0.12);
     --timeline-line: rgba(200, 195, 185, 0.6);
     --grain-opacity: 0.02;
-    --glass-blur: 14px;
+    --glass-blur: 10px;
     --card-radius: 20px;
 }
 
@@ -381,9 +381,9 @@ header {
     padding: 40px 48px;
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-        inset 0 0 6px 3px rgba(255, 255, 255, 0.06);
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
     max-width: 900px;
     margin: 0 auto;
     position: relative;
@@ -398,7 +398,7 @@ header {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
     z-index: 2;
 }
 
@@ -409,7 +409,7 @@ header {
     left: 0;
     width: 1px;
     height: 100%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent, rgba(255, 255, 255, 0.15));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), transparent, rgba(255, 255, 255, 0.3));
     z-index: 2;
 }
 
@@ -669,9 +669,9 @@ section {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-        inset 0 0 6px 3px rgba(255, 255, 255, 0.06);
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
 }
 
 /* Glass top-edge highlight */
@@ -682,7 +682,7 @@ section::before {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
     z-index: 1;
 }
 
@@ -694,7 +694,7 @@ section::after {
     left: 0;
     width: 1px;
     height: 100%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent, rgba(255, 255, 255, 0.15));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), transparent, rgba(255, 255, 255, 0.3));
     z-index: 1;
 }
 
@@ -1018,9 +1018,9 @@ section h2::after {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-        inset 0 0 6px 3px rgba(255, 255, 255, 0.06);
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
 }
 
 .card::before {
@@ -1756,9 +1756,9 @@ pre:hover .code-copy-btn {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-        inset 0 0 6px 3px rgba(255, 255, 255, 0.06);
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
 }
 
 .featured-card::before {
@@ -2368,9 +2368,9 @@ section.overview-prominent .project-detail-header h2 {
     overflow: hidden;
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.25),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
-        inset 0 0 6px 3px rgba(255, 255, 255, 0.06);
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
 }
 
 .jump-pill {
