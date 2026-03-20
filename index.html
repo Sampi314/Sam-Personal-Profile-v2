@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam Ngo - Senior Analyst at SumProduct</title>
-    <link rel="stylesheet" href="assets/css/style.css?v=6">
+    <link rel="stylesheet" href="assets/css/style.css?v=7">
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#080c18">
     <meta name="description" content="Sam Ngo - Senior Analyst at SumProduct. Financial modeling, Excel VBA automation, Power BI dashboards, and data visualization specialist based in Sydney, Australia.">
     <link rel="alternate" type="application/rss+xml" title="Sam Ngo RSS Feed" href="feed.xml">
     <script type="application/ld+json">
@@ -38,6 +38,12 @@
     </script>
 </head>
 <body>
+    <!-- Decorative background elements -->
+    <div class="bg-orb-2" aria-hidden="true"></div>
+    <div class="bg-glow-orb bg-glow-orb--1" aria-hidden="true"></div>
+    <div class="bg-glow-orb bg-glow-orb--2" aria-hidden="true"></div>
+    <div class="bg-glow-orb bg-glow-orb--3" aria-hidden="true"></div>
+
     <!-- Sticky Navbar -->
     <nav class="navbar">
         <div class="nav-inner">
@@ -55,71 +61,71 @@
 
     <header>
         <canvas id="hero-particles" class="hero-canvas"></canvas>
-        <div class="hero-inner">
-            <div class="hero-text">
-                <div class="hero-label hero-reveal">Senior Analyst</div>
-                <h1 class="hero-reveal">Sam <em>Ngo</em></h1>
-                <p class="headline hero-reveal">Finance professional specializing in financial modeling, data transformation, and visualization at SumProduct.</p>
-                <p class="location hero-reveal">Sydney, NSW &mdash; Australia</p>
-                <div class="header-actions hero-reveal">
-                    <a href="assets/Sam_Ngo_CV.pdf" download class="btn btn-primary magnetic-btn">Download CV</a>
-                    <button onclick="window.print()" class="btn btn-outline magnetic-btn print-cv-btn">Print CV</button>
-                    <a href="https://github.com/Sampi314" target="_blank" class="btn btn-outline magnetic-btn">GitHub</a>
-                    <a href="https://www.linkedin.com/in/nkhoihue/" target="_blank" class="btn btn-outline magnetic-btn">LinkedIn</a>
+        <div class="hero-glass">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <div class="hero-label hero-reveal">Senior Analyst</div>
+                    <h1 class="hero-reveal">Sam <em>Ngo</em></h1>
+                    <p class="headline hero-reveal">Finance professional specializing in financial modeling, data transformation, and visualization at SumProduct.</p>
+                    <div class="header-actions hero-reveal">
+                        <a href="assets/Sam_Ngo_CV.pdf" download class="btn btn-primary magnetic-btn">Download CV</a>
+                        <button onclick="window.print()" class="btn btn-outline magnetic-btn print-cv-btn">Print CV</button>
+                        <a href="https://github.com/Sampi314" target="_blank" class="btn btn-outline magnetic-btn">GitHub</a>
+                        <a href="https://www.linkedin.com/in/nkhoihue/" target="_blank" class="btn btn-outline magnetic-btn">LinkedIn</a>
+                    </div>
+                    <div class="contact-bar hero-reveal">
+                        <a href="mailto:nkhoihue@gmail.com">nkhoihue@gmail.com</a>
+                    </div>
                 </div>
-                <div class="contact-bar hero-reveal">
-                    <a href="mailto:nkhoihue@gmail.com">nkhoihue@gmail.com</a>
+                <div class="hero-photo hero-reveal">
+                    <img src="assets/img/profile.jpg" alt="Sam Ngo" class="profile-pic float-gentle" loading="eager">
                 </div>
-            </div>
-            <div class="hero-photo hero-reveal">
-                <img src="assets/img/profile.jpg" alt="Sam Ngo" class="profile-pic float-gentle" loading="eager">
             </div>
         </div>
     </header>
 
     <!-- Section Jump Bar -->
     <nav class="jump-bar" aria-label="Jump to section">
-        <a href="#about" class="jump-pill">About</a>
-        <a href="#featured-work" class="jump-pill">Work</a>
-        <a href="#experience" class="jump-pill">Experience</a>
-        <a href="#education" class="jump-pill">Education</a>
-        <a href="#skills" class="jump-pill">Skills</a>
-        <a href="#certifications" class="jump-pill">Certs</a>
-        <a href="#awards" class="jump-pill">Awards</a>
-        <a href="#languages" class="jump-pill">Languages</a>
+        <a href="#about" class="jump-pill"><span class="jump-pill-icon">&#9673;</span> About</a>
+        <a href="#featured-work" class="jump-pill"><span class="jump-pill-icon">&#9881;</span> Work</a>
+        <a href="#experience" class="jump-pill"><span class="jump-pill-icon">&#9733;</span> Experience</a>
+        <a href="#education" class="jump-pill"><span class="jump-pill-icon">&#9734;</span> Education</a>
+        <a href="#skills" class="jump-pill"><span class="jump-pill-icon">&#9874;</span> Skills</a>
+        <a href="#certifications" class="jump-pill"><span class="jump-pill-icon">&#9745;</span> Certs</a>
+        <a href="#awards" class="jump-pill"><span class="jump-pill-icon">&#9830;</span> Honors</a>
+        <a href="#languages" class="jump-pill"><span class="jump-pill-icon">&#9758;</span> Languages</a>
     </nav>
 
     <main>
-        <!-- About -->
+        <!-- About + Metrics -->
         <section class="fade-in" id="about">
             <h2>About</h2>
             <p class="summary-text">I'm a Senior Analyst at SumProduct, where I build financial models, automate workflows, and turn complex data into clear visuals for clients across infrastructure, energy, real estate, and government.</p>
             <p class="summary-text" style="margin-top: 14px;">What I enjoy most is finding the engineering in finance &mdash; writing VBA tools that save hours of manual work, designing formulas that replace entire processes, and building dashboards that tell a story at a glance. I've published 30+ tools and articles on Excel, VBA, and Power BI.</p>
             <p class="summary-text" style="margin-top: 14px;">I hold a Master of Finance from the University of Adelaide (GPA 6.375/7) and a Bachelor of International Finance from I-Shou University, Taiwan (GPA 4.0/4, Top 5%). When I'm not in a spreadsheet, I'm exploring how AI can make consulting workflows faster and more consistent.</p>
+            <!-- Key Metrics integrated into About card -->
+            <div class="metrics-banner">
+                <div class="metric-item">
+                    <span class="metric-number">30+</span>
+                    <span class="metric-label">VBA Tools Built</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">50+</span>
+                    <span class="metric-label">Financial Models</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">20+</span>
+                    <span class="metric-label">Published Articles</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-number">3+</span>
+                    <span class="metric-label">Years at SumProduct</span>
+                </div>
+            </div>
         </section>
 
-        <!-- Key Metrics -->
-        <div class="metrics-banner fade-in">
-            <div class="metric-item">
-                <span class="metric-number">30+</span>
-                <span class="metric-label">VBA Tools Built</span>
-            </div>
-            <div class="metric-item">
-                <span class="metric-number">50+</span>
-                <span class="metric-label">Financial Models</span>
-            </div>
-            <div class="metric-item">
-                <span class="metric-number">20+</span>
-                <span class="metric-label">Published Articles</span>
-            </div>
-            <div class="metric-item">
-                <span class="metric-number">3+</span>
-                <span class="metric-label">Years at SumProduct</span>
-            </div>
-        </div>
-
         <!-- Featured Work -->
-        <section class="fade-in section-alt" id="featured-work">
+        <section class="fade-in" id="featured-work">
             <h2>Featured Work</h2>
             <div class="featured-work-grid">
                 <a href="projects/project-excel.html" class="featured-card" data-card-theme="excel">
@@ -150,181 +156,150 @@
             </div>
         </section>
 
-        <div class="section-accent-divider"></div>
-
-        <!-- Experience -->
+        <!-- Experience (two-column layout) -->
         <section id="experience" class="fade-in">
             <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-col">
+                    <div class="experience-item">
+                        <h3>Senior Analyst &middot; <span style="color: var(--accent)">SumProduct</span></h3>
+                        <p class="meta">Oct 2023 &ndash; Present</p>
+                        <ul>
+                            <li>Built and reviewed 50+ financial models in Excel for clients across infrastructure, energy, real estate, and government sectors.</li>
+                            <li>Designed and delivered 15+ dynamic Power BI dashboards and reports, including complex matrix visuals with dynamic Actual/Budget/Variance analysis.</li>
+                            <li>Built 30+ automation tools using Excel VBA, Python (openpyxl, pywin32), VB.NET, Power Query, and Power BI.</li>
+                            <li>Developed a multi-agent Excel model audit framework covering 10 audit dimensions &mdash; significantly reducing manual review time.</li>
+                            <li>Productised AI tooling for the firm using Claude Code CLI and custom skill architecture, building 5+ reusable internal tools.</li>
+                            <li>Authored 20+ published articles for SumProduct on DAX functions, Power BI, and Excel challenge series.</li>
+                        </ul>
+                    </div>
 
-            <div class="experience-item">
-                <h3>Senior Analyst</h3>
-                <p class="meta">SumProduct &middot; Sydney, New South Wales, Australia</p>
-                <p class="meta">Oct 2023 &ndash; Present</p>
-                <ul>
-                    <li>Built and reviewed 50+ financial models in Excel for clients across infrastructure, energy, real estate, and government sectors.</li>
-                    <li>Designed and delivered 15+ dynamic Power BI dashboards and reports, including complex matrix visuals with dynamic Actual/Budget/Variance analysis.</li>
-                    <li>Built 30+ automation tools using Excel VBA, Python (openpyxl, pywin32), VB.NET, Power Query, and Power BI.</li>
-                    <li>Developed a multi-agent Excel model audit framework covering 10 audit dimensions &mdash; formula logic, error detection, formatting consistency, text quality, efficiency, hyperlinks, VBA, Power Query, and dependency mapping &mdash; significantly reducing manual review time.</li>
-                    <li>Productised AI tooling for the firm using Claude Code CLI and custom skill architecture, building 5+ reusable internal tools that automate core consulting deliverables.</li>
-                    <li>Tools built include a 7-phase financial modelling suite, a multi-agent Excel audit suite, an editorial writing auditor, a DAX blog generator, and a book authoring assistant.</li>
-                    <li>Evaluated and integrated 3 AI platforms (Claude, ChatGPT, Gemini) into team workflows, guiding colleagues in adopting AI tools for day-to-day consulting tasks.</li>
-                    <li>Authored 20+ published articles for SumProduct on DAX functions, Power BI, and Excel challenge series.</li>
-                    <li>Managed project delivery and trained staff across data analysis, automation, and AI tools.</li>
-                </ul>
-            </div>
+                    <div class="experience-item">
+                        <h3>Analyst &middot; <span style="color: var(--accent)">SumProduct</span></h3>
+                        <p class="meta">Aug 2022 &ndash; Oct 2023</p>
+                        <ul>
+                            <li>Extensive experience in developing and reviewing complex financial models, employing advanced mathematical techniques and Excel.</li>
+                            <li>Proficient in data transformation and visualization, employing diverse tools and technologies.</li>
+                            <li>Skilled in providing support across various areas, including training materials, marketing, and website content development.</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="experience-item">
-                <h3>Analyst</h3>
-                <p class="meta">SumProduct &middot; Sydney, New South Wales, Australia</p>
-                <p class="meta">Aug 2022 &ndash; Oct 2023</p>
-                <ul>
-                    <li>Extensive experience in developing and reviewing complex financial models, employing advanced mathematical techniques and Excel to facilitate strategic decision-making.</li>
-                    <li>Proficient in data transformation and visualization, employing diverse tools and technologies to extract, clean, and present intricate data sets for insightful analysis.</li>
-                    <li>Skilled in providing support across various areas, including training materials, marketing material preparation, website content development, and office administration.</li>
-                </ul>
-            </div>
+                <div class="experience-col">
+                    <div class="experience-item">
+                        <h3>Global Trade Accelerator Consultant &middot; <span style="color: var(--accent)">Practera</span></h3>
+                        <p class="meta">Apr 2020</p>
+                        <ul>
+                            <li>Identified and defined objectives of assigned marketing research projects, determining best methods to meet those objectives.</li>
+                            <li>Conducted research and compiled data related to product market, customer demographics, and factors influencing demand.</li>
+                            <li>Analysed results to identify ways of maximising sales and market penetration of current products.</li>
+                        </ul>
+                    </div>
 
-            <div class="experience-item">
-                <h3>Global Trade Accelerator Consultant</h3>
-                <p class="meta">Practera &middot; Australia</p>
-                <p class="meta">Apr 2020</p>
-                <ul>
-                    <li>Identified and defined objectives of assigned marketing research projects, determining best methods to meet those objectives.</li>
-                    <li>Conducted research and compiled data related to product market, customer demographics, and factors influencing demand.</li>
-                    <li>Analysed results to identify ways of maximising sales and market penetration of current products.</li>
-                </ul>
-            </div>
+                    <div class="experience-item">
+                        <h3>Commercial Banking Intern &middot; <span style="color: var(--accent)">UOB</span></h3>
+                        <p class="meta">Sep 2019 &ndash; Oct 2019</p>
+                        <ul>
+                            <li>Generated over 100 customer contacts (existing, potential) daily, utilising excellent communication skills.</li>
+                            <li>Supported the sales team with the preparation of documents for loan applications.</li>
+                        </ul>
+                    </div>
 
-            <div class="experience-item">
-                <h3>Commercial Banking Intern</h3>
-                <p class="meta">United Overseas Bank Limited (UOB) &middot; Ho Chi Minh City, Vietnam</p>
-                <p class="meta">Sep 2019 &ndash; Oct 2019</p>
-                <ul>
-                    <li>Generated over 100 customer contacts (existing, potential) daily, utilising excellent communication skills.</li>
-                    <li>Supported the sales team with the preparation of documents for loan applications.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>Trainee Accountant</h3>
-                <p class="meta">Lien Sinh Packaging &middot; Ho Chi Minh City, Vietnam</p>
-                <p class="meta">Jun 2018 &ndash; Sep 2018</p>
-                <ul>
-                    <li>Undertook the preparation of asset, liability, and capital account entries (compiling, analysing).</li>
-                    <li>Created financial reports to support the accounting team.</li>
-                </ul>
+                    <div class="experience-item">
+                        <h3>Trainee Accountant &middot; <span style="color: var(--accent)">Lien Star Packaging</span></h3>
+                        <p class="meta">Jun 2018 &ndash; Sep 2018</p>
+                        <ul>
+                            <li>Undertook the preparation of asset, liability, and capital account entries (compiling, analysing).</li>
+                            <li>Created financial reports to support the accounting team.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Education -->
-        <section class="fade-in section-alt" id="education">
+        <!-- Education (two-column layout) -->
+        <section class="fade-in" id="education">
             <h2>Education</h2>
-            <div class="education-item">
-                <h3>Master of Finance</h3>
-                <p class="meta">University of Adelaide &middot; Feb 2020 &ndash; Nov 2021</p>
-                <p class="meta">GPA: 6.375/7 &middot; Golden Key Member</p>
-            </div>
-            <div class="education-item">
-                <h3>Bachelor of International Finance</h3>
-                <p class="meta">I-Shou University, Taiwan &middot; Feb 2016 &ndash; Jun 2019</p>
-                <p class="meta">GPA: 4.00/4 &middot; Top 5% &middot; Merit Scholarship &middot; Dean&rsquo;s List</p>
-            </div>
-        </section>
-
-        <!-- Skills -->
-        <section class="fade-in" id="skills">
-            <h2>Skills</h2>
-            <div class="subsection-title">Technical</div>
-            <div class="skills-bar-grid">
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Excel</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95%"></div></div>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Master of Finance</h3>
+                    <p class="meta">University of Adelaide</p>
+                    <p class="meta">Feb 2020 &ndash; Nov 2021</p>
+                    <p class="meta">GPA: 6.375/7 &middot; Golden Key Member</p>
                 </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">VBA</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Power Query</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Power BI</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">VB.NET</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Financial Modeling</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Data Visualization</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Power Automate</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">RStudio</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60%"></div></div>
-                </div>
-                <div class="skill-bar-item">
-                    <span class="skill-bar-label">Data Analysis</span>
-                    <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88%"></div></div>
+                <div class="education-item">
+                    <h3>Bachelor of International Finance</h3>
+                    <p class="meta">I-Shou University, Taiwan</p>
+                    <p class="meta">Feb 2016 &ndash; Jun 2019</p>
+                    <p class="meta">GPA: 4.00/4 &middot; Top 5% &middot; Merit Scholarship &middot; Dean&rsquo;s List</p>
                 </div>
             </div>
         </section>
 
-        <div class="section-accent-divider"></div>
+        <!-- Bottom Grid: Skills | Certifications + Languages | Honours & Awards -->
+        <div class="bottom-grid fade-in">
+            <!-- Skills -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-pill-grid">
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128202;</span> Excel</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128187;</span> VBA</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128269;</span> Power Query</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128200;</span> Power BI</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128421;</span> VB.NET</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128176;</span> Financial Modeling</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#127912;</span> Data Visualization</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#9889;</span> Power Automate</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128300;</span> RStudio</div>
+                    <div class="skill-pill"><span class="skill-pill-icon">&#128203;</span> Data Analysis</div>
+                </div>
+            </section>
 
-        <!-- Certifications -->
-        <section class="fade-in section-alt" id="certifications">
-            <h2>Certifications</h2>
-            <ul class="cert-list">
-                <li>Corporate Financial Statement Analysis</li>
-                <li>R Programming</li>
-                <li>UT.5.05x: Linear Algebra &ndash; Foundations to Frontiers</li>
-            </ul>
-        </section>
+            <!-- Certifications + Languages stack -->
+            <div class="bottom-stack">
+                <section id="certifications">
+                    <h2>Certifications</h2>
+                    <ul class="cert-list">
+                        <li>Corporate Financial Statement Analysis</li>
+                        <li>R Programming</li>
+                        <li>UT.5.05x: Linear Algebra</li>
+                    </ul>
+                </section>
 
-        <!-- Honours & Awards -->
-        <section class="fade-in" id="awards">
-            <h2>Honours &amp; Awards</h2>
-            <ul class="award-list">
-                <li>Dean's List Award (x2)</li>
-                <li>Honorary Member of Golden Key Society</li>
-            </ul>
-        </section>
+                <section id="languages">
+                    <h2>Languages</h2>
+                    <div class="lang-item">
+                        <span class="lang-name">Vietnamese</span>
+                        <span class="lang-level">Native</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">English</span>
+                        <span class="lang-level">Professional</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Chinese (Simplified)</span>
+                        <span class="lang-level">Working</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Chinese (Traditional)</span>
+                        <span class="lang-level">Working</span>
+                    </div>
+                </section>
+            </div>
 
-        <!-- Languages -->
-        <section class="fade-in section-alt" id="languages">
-            <h2>Languages</h2>
-            <div class="lang-item">
-                <span class="lang-name">Vietnamese</span>
-                <span class="lang-level">Native or Bilingual</span>
-            </div>
-            <div class="lang-item">
-                <span class="lang-name">English</span>
-                <span class="lang-level">Full Professional</span>
-            </div>
-            <div class="lang-item">
-                <span class="lang-name">Chinese (Simplified)</span>
-                <span class="lang-level">Limited Working</span>
-            </div>
-            <div class="lang-item">
-                <span class="lang-name">Chinese (Traditional)</span>
-                <span class="lang-level">Limited Working</span>
-            </div>
-        </section>
+            <!-- Honours & Awards -->
+            <section id="awards">
+                <h2>Honours &amp; Awards</h2>
+                <ul class="award-list">
+                    <li>Dean's List Award (x2)</li>
+                    <li>Honorary Member of Golden Key Society</li>
+                </ul>
+            </section>
+        </div>
 
     </main>
 
     <footer>
-        <div class="footer-logo"></div>
         <div class="footer-tagline">Finance &middot; Data &middot; Visualization</div>
         <div class="footer-links">
             <a href="mailto:nkhoihue@gmail.com">Email</a>
