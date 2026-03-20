@@ -40,7 +40,7 @@
 }
 
 [data-theme="light"] {
-    --bg-primary: #dce3ed;
+    --bg-primary: #b8c4d8;
     --bg-card: rgba(255, 255, 255, 0.4);
     --bg-card-alt: rgba(255, 255, 255, 0.35);
     --text-primary: #1a1a1f;
@@ -101,17 +101,17 @@
         inset 0 0 6px 3px rgba(255, 255, 255, 0.4);
 }
 
-/* Light mode glow orbs - warmer, more visible */
+/* Light mode glow orbs - strong colors so glass has content to blur */
 [data-theme="light"] .bg-glow-orb--1 {
-    background: radial-gradient(circle, rgba(217, 119, 6, 0.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(217, 119, 6, 0.3) 0%, transparent 70%);
 }
 
 [data-theme="light"] .bg-glow-orb--2 {
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.25) 0%, transparent 70%);
 }
 
 [data-theme="light"] .bg-glow-orb--3 {
-    background: radial-gradient(circle, rgba(217, 119, 6, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.2) 0%, transparent 70%);
 }
 
 /* ========================================
