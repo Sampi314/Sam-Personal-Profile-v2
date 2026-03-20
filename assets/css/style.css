@@ -8,16 +8,16 @@
    ======================================== */
 :root {
     --bg-primary: #080c18;
-    --bg-card: rgba(16, 20, 40, 0.25);
-    --bg-card-alt: rgba(20, 25, 48, 0.25);
+    --bg-card: rgba(12, 16, 32, 0.55);
+    --bg-card-alt: rgba(15, 20, 38, 0.55);
     --text-primary: #e8e8ed;
     --text-secondary: #9ca3af;
     --text-muted: #6b7280;
     --accent: #f59e0b;
     --accent-glow: rgba(245, 158, 11, 0.15);
     --accent-hover: #fbbf24;
-    --border: rgba(55, 75, 130, 0.3);
-    --border-strong: rgba(65, 85, 140, 0.45);
+    --border: rgba(50, 100, 170, 0.4);
+    --border-strong: rgba(60, 110, 180, 0.55);
     --tag-bg: rgba(20, 25, 45, 0.5);
     --tag-text: #f59e0b;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -35,14 +35,14 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(30, 200, 180, 0.35), 0 20px 60px rgba(0, 0, 0, 0.5);
     --timeline-line: rgba(55, 75, 130, 0.35);
     --grain-opacity: 0.02;
-    --glass-blur: 40px;
+    --glass-blur: 20px;
     --card-radius: 14px;
 }
 
 [data-theme="light"] {
     --bg-primary: #eef1f5;
-    --bg-card: rgba(255, 255, 255, 0.25);
-    --bg-card-alt: rgba(248, 246, 242, 0.25);
+    --bg-card: rgba(255, 255, 255, 0.45);
+    --bg-card-alt: rgba(248, 246, 242, 0.45);
     --text-primary: #1a1a1f;
     --text-secondary: #4a4a55;
     --text-muted: #8a8a95;
@@ -68,7 +68,7 @@
     --hero-pic-shadow-hover: 0 0 40px rgba(217, 119, 6, 0.2), 0 12px 40px rgba(0, 0, 0, 0.12);
     --timeline-line: rgba(200, 195, 185, 0.6);
     --grain-opacity: 0.02;
-    --glass-blur: 40px;
+    --glass-blur: 20px;
     --card-radius: 14px;
 }
 
@@ -379,9 +379,9 @@ header {
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     padding: 40px 48px;
     box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.25),
-        0 0 1px rgba(255, 255, 255, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.08),
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        0 0 24px rgba(40, 90, 160, 0.1),
+        inset 0 1px 0 rgba(100, 160, 255, 0.12),
         inset 0 -1px 0 rgba(255, 255, 255, 0.02);
     max-width: 900px;
     margin: 0 auto;
@@ -643,9 +643,9 @@ section {
     backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     box-shadow:
-        0 4px 24px rgba(0, 0, 0, 0.2),
-        0 0 1px rgba(255, 255, 255, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.06),
+        0 4px 24px rgba(0, 0, 0, 0.25),
+        0 0 20px rgba(40, 90, 160, 0.08),
+        inset 0 1px 0 rgba(100, 160, 255, 0.1),
         inset 0 -1px 0 rgba(255, 255, 255, 0.02);
 }
 
@@ -968,8 +968,9 @@ section h2::after {
     backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     box-shadow:
-        0 4px 24px rgba(0, 0, 0, 0.15),
-        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        0 4px 24px rgba(0, 0, 0, 0.2),
+        0 0 16px rgba(40, 90, 160, 0.06),
+        inset 0 1px 0 rgba(100, 160, 255, 0.08);
 }
 
 .card::before {
@@ -1704,8 +1705,9 @@ pre:hover .code-copy-btn {
     backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(180%);
     box-shadow:
-        0 4px 24px rgba(0, 0, 0, 0.15),
-        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        0 4px 24px rgba(0, 0, 0, 0.2),
+        0 0 16px rgba(40, 90, 160, 0.06),
+        inset 0 1px 0 rgba(100, 160, 255, 0.08);
 }
 
 .featured-card::before {
@@ -2313,8 +2315,9 @@ section.overview-prominent .project-detail-header h2 {
     top: 62px;
     z-index: 999;
     box-shadow:
-        0 4px 24px rgba(0, 0, 0, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        0 4px 24px rgba(0, 0, 0, 0.25),
+        0 0 16px rgba(40, 90, 160, 0.08),
+        inset 0 1px 0 rgba(100, 160, 255, 0.1);
 }
 
 .jump-pill {
